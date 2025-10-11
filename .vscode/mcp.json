@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"my-mcp-server-169ea16d": {
+			"type": "stdio",
+			"command": "python",
+			"args": [
+				"PubMed-MCP-Server/pubmed_server.py"
+			]
+		}
+	},
+	"inputs": []
+}
