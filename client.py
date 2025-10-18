@@ -1,6 +1,6 @@
 import asyncio
 from contextlib import AsyncExitStack
-
+from collections import Counter
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 import os
@@ -61,7 +61,7 @@ class MCPClient:
         all_tools = []
         tool_to_session = {}  # Maps tool name to the session that provides it
         
-        for server_name, session in self.sessions.items():
+        for session in self.sessions.values():
             response = await session.list_tools()
             for tool in response.tools:
                 # Check for tool name conflicts
@@ -171,6 +171,33 @@ class MCPClient:
             return list(map(lambda x: json.loads(x.text.replace("\n", "")), classified_result[0]))
         return []
 
+    async def analyze_documents(self, pmids: list[str], data: dict[str, dict]):
+        """
+        Traverses the nested JSON structure to count all annotation types.
+        """
+        document_counter = {}
+        for pmid in pmids:
+            document_counter[pmid] = Counter()
+
+        documents = data['PubTator3']
+        # Loop through each document in the file
+        for doc in documents:
+            pubmed_id = doc.get('id', "")
+            assert pubmed_id, "Not a valid document!"
+            passages = doc.get('passages', [])
+            # For each passage of a document (title, abstract)
+            for passage in passages:
+                # Access the 'annotations' list
+                annotations = passage.get('annotations', [])
+                # Loop through each annotation
+                for annotation in annotations:
+                    # Access the 'type' from the 'infons' object
+                    if 'infons' in annotation and 'type' in annotation['infons']:
+                        annotation_type = annotation['infons']['type']
+                        document_counter[pubmed_id][annotation_type] += 1
+        
+        return document_counter
+
     
     async def chat_loop(self):
         """Run an interactive chat loop"""
@@ -216,20 +243,42 @@ async def main():
             await client.connect_to_server(server_name, server_path)
         search_result = await client.pico_search(
             pico_data = {
-                "P": ["diabetes", "chronic right knee pain"],
-                "I": ["knee replacement surgery", "open knee replacement", "minimally invasive knee replacement"],
-                "C": ["conservative management", "medication", "physiotherapy"],
-                "O": ["pain relief", "functional recovery", "early return to work"]
+                "P": ["adults with osteoarthritis", "patients with chronic low back pain", "elderly patients at risk for falls"],
+                "I": ["acupuncture", "exercise therapy", "use of assistive devices"],
+                "C": ["standard pain medication", "placebo", "usual care"],
+                "O": ["improved pain scores", "increased mobility", "reduced incidence of falls"]
             },
             keys = ["P", "I", "C"],
-            num_results=5
+            num_results=20
         )
         pmids = list(map(lambda item: item["PMID"] if "PMID" in item.keys() else item["pmid"], search_result))
+        # id_to_doc = list(map(lambda item: {item["PMID"] if "PMID" in item.keys() else item["pmid"]: item}, search_result))
         if not pmids:
             return
         pubtator_output = await client.export_publications(pmids)
         if not pubtator_output:
             return
+        all_counts = await client.analyze_documents(pmids, pubtator_output[0])
+
+        # Create a classified dictionary: {"Disease": [list of pmids], "Species": [list of pmids], ...}
+        # Only include documents where the annotation type is at least 33% of all annotations
+        classified_dict = {}
+        threshold = 0.3
+        
+        for doc_id, counter in all_counts.items():
+            total_annotations = sum(counter.values())
+            if total_annotations == 0:
+                continue
+            
+            for annotation_type, count in counter.items():
+                percentage = count / total_annotations
+                if percentage >= threshold:
+                    if annotation_type not in classified_dict:
+                        classified_dict[annotation_type] = []
+                    classified_dict[annotation_type].append(doc_id)
+        
+        print("\nClassified Results:")
+        print(json.dumps(classified_dict, indent=4))
 
     finally:
         await client.cleanup()

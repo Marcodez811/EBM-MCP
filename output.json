@@ -1,0 +1,3693 @@
+[
+    {
+        "PubTator3": [
+            {
+                "_id": "25155530|None",
+                "id": "25155530",
+                "infons": {},
+                "passages": [
+                    {
+                        "infons": {
+                            "journal": "Nurs Clin North Am. 2014 Sep;49(3):299-308. doi: 10.1016/j.cnur.2014.05.004.",
+                            "year": "2014",
+                            "type": "title",
+                            "authors": "Agos F, Shoda C, Bransford D"
+                        },
+                        "offset": 0,
+                        "text": "Part II: managing perioperative hyperglycemia in total hip and knee replacement surgeries.",
+                        "sentences": [],
+                        "annotations": [
+                            {
+                                "id": "2",
+                                "infons": {
+                                    "identifier": "MESH:D006943",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D006943"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D006943",
+                                    "biotype": "disease",
+                                    "name": "Hyperglycemia",
+                                    "accession": "@DISEASE_Hyperglycemia"
+                                },
+                                "text": "hyperglycemia",
+                                "locations": [
+                                    {
+                                        "offset": 32,
+                                        "length": 13
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "3",
+                                "infons": {
+                                    "identifier": "MESH:D025981",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D025981"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D025981",
+                                    "biotype": "disease",
+                                    "name": "Hip Injuries",
+                                    "accession": "@DISEASE_Hip_Injuries"
+                                },
+                                "text": "hip",
+                                "locations": [
+                                    {
+                                        "offset": 55,
+                                        "length": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "relations": []
+                    },
+                    {
+                        "infons": {
+                            "type": "abstract"
+                        },
+                        "offset": 91,
+                        "text": "Perioperative hyperglycemia management is an important factor in reducing the risk of surgical site infections (SSIs) in all patients regardless of existing history of diabetes. Reduction of SSIs is one of the quality indicators reported by the National Healthcare Safety Networks of the Centers for Disease Control and Prevention (CDC). In 2009 and 2010, the orthopedic surgical unit had an increased number of SSIs above the CDC benchmark. This article describes the impact of an evidence-based practice standard for perioperative hyperglycemia management in the reduction of SSIs in patients having total hip and knee replacement surgery. ",
+                        "sentences": [],
+                        "annotations": [
+                            {
+                                "id": "15",
+                                "infons": {
+                                    "identifier": "MESH:D006943",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D006943"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D006943",
+                                    "biotype": "disease",
+                                    "name": "Hyperglycemia",
+                                    "accession": "@DISEASE_Hyperglycemia"
+                                },
+                                "text": "hyperglycemia",
+                                "locations": [
+                                    {
+                                        "offset": 105,
+                                        "length": 13
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16",
+                                "infons": {
+                                    "identifier": "MESH:D013530",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D013530"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D013530",
+                                    "biotype": "disease",
+                                    "name": "Surgical Wound Infection",
+                                    "accession": "@DISEASE_Surgical_Wound_Infection"
+                                },
+                                "text": "surgical site infections",
+                                "locations": [
+                                    {
+                                        "offset": 177,
+                                        "length": 24
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "17",
+                                "infons": {
+                                    "identifier": "MESH:D013530",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D013530"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D013530",
+                                    "biotype": "disease",
+                                    "name": "Surgical Wound Infection",
+                                    "accession": "@DISEASE_Surgical_Wound_Infection"
+                                },
+                                "text": "SSIs",
+                                "locations": [
+                                    {
+                                        "offset": 203,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "18",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 216,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "19",
+                                "infons": {
+                                    "identifier": "MESH:D003920",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D003920"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D003920",
+                                    "biotype": "disease",
+                                    "name": "Diabetes Mellitus",
+                                    "accession": "@DISEASE_Diabetes_Mellitus"
+                                },
+                                "text": "diabetes",
+                                "locations": [
+                                    {
+                                        "offset": 259,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "20",
+                                "infons": {
+                                    "identifier": "MESH:D013530",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D013530"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D013530",
+                                    "biotype": "disease",
+                                    "name": "Surgical Wound Infection",
+                                    "accession": "@DISEASE_Surgical_Wound_Infection"
+                                },
+                                "text": "SSIs",
+                                "locations": [
+                                    {
+                                        "offset": 282,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "21",
+                                "infons": {
+                                    "identifier": "MESH:D013530",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D013530"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D013530",
+                                    "biotype": "disease",
+                                    "name": "Surgical Wound Infection",
+                                    "accession": "@DISEASE_Surgical_Wound_Infection"
+                                },
+                                "text": "SSIs",
+                                "locations": [
+                                    {
+                                        "offset": 503,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "22",
+                                "infons": {
+                                    "identifier": "MESH:D006943",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D006943"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D006943",
+                                    "biotype": "disease",
+                                    "name": "Hyperglycemia",
+                                    "accession": "@DISEASE_Hyperglycemia"
+                                },
+                                "text": "hyperglycemia",
+                                "locations": [
+                                    {
+                                        "offset": 624,
+                                        "length": 13
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "23",
+                                "infons": {
+                                    "identifier": "MESH:D013530",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D013530"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D013530",
+                                    "biotype": "disease",
+                                    "name": "Surgical Wound Infection",
+                                    "accession": "@DISEASE_Surgical_Wound_Infection"
+                                },
+                                "text": "SSIs",
+                                "locations": [
+                                    {
+                                        "offset": 669,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "24",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 677,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "25",
+                                "infons": {
+                                    "identifier": "MESH:D025981",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D025981"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D025981",
+                                    "biotype": "disease",
+                                    "name": "Hip Injuries",
+                                    "accession": "@DISEASE_Hip_Injuries"
+                                },
+                                "text": "hip",
+                                "locations": [
+                                    {
+                                        "offset": 699,
+                                        "length": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "relations": []
+                    }
+                ],
+                "relations": [],
+                "pmid": 25155530,
+                "pmcid": null,
+                "meta": {},
+                "date": "2014-09-01T00:00:00Z",
+                "journal": "Nurs Clin North Am",
+                "authors": [
+                    "Agos F",
+                    "Shoda C",
+                    "Bransford D"
+                ],
+                "relations_display": []
+            },
+            {
+                "_id": "34145017|None",
+                "id": "34145017",
+                "infons": {},
+                "passages": [
+                    {
+                        "infons": {
+                            "journal": "BMJ Open. 2021 Jun 18;11(6):e047061. doi: 10.1136/bmjopen-2020-047061.",
+                            "year": "2021",
+                            "article-id_pmc": "PMC8215258",
+                            "type": "title",
+                            "authors": "King LK, Waugh EJ, Jones CA, Bohm E, Dunbar M, Woodhouse L, Noseworthy T, Marshall DA, Hawker GA"
+                        },
+                        "offset": 0,
+                        "text": "Comorbidities do not limit improvement in pain and physical function after total knee arthroplasty in patients with knee osteoarthritis: the BEST-Knee prospective cohort study.",
+                        "sentences": [],
+                        "annotations": [
+                            {
+                                "id": "4",
+                                "infons": {
+                                    "identifier": "MESH:D010146",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010146"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010146",
+                                    "biotype": "disease",
+                                    "name": "Pain",
+                                    "accession": "@DISEASE_Pain"
+                                },
+                                "text": "pain",
+                                "locations": [
+                                    {
+                                        "offset": 42,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "arthroplasty",
+                                "locations": [
+                                    {
+                                        "offset": 86,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "6",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 102,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "7",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "knee osteoarthritis",
+                                "locations": [
+                                    {
+                                        "offset": 116,
+                                        "length": 19
+                                    }
+                                ]
+                            }
+                        ],
+                        "relations": []
+                    },
+                    {
+                        "infons": {
+                            "type": "abstract"
+                        },
+                        "offset": 177,
+                        "text": "OBJECTIVE: To assess the relationship between comorbidities and amount of improvement in pain and physical function in recipients of total knee arthroplasty (TKA) for knee osteoarthritis (OA). DESIGN: Prospective cohort study. SETTING: Two provincial central intake hip and knee centres in Alberta, Canada. PARTICIPANTS: 1051 participants (278 in 6-minute walk test (6MWT) subset), >=30 years of age with primary knee OA referred for consultation regarding elective primary TKA; assessed 1 month prior and 12 months after TKA. PRIMARY AND SECONDARY OUTCOME MEASURES: Pre-post TKA change in knee OA pain (Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC)), physical function (Knee injury and Osteoarthritis Outcome Score (KOOS) Physical Function Short-Form) and 6MWT walking distance; and the reporting of an acceptable symptom state (Patient Acceptable Symptom State (PASS)) at 12 months after TKA. RESULTS: Mean participant age was 67 years (SD 8.8), 59% were female and 85% reported at least one comorbidity. Individuals with a higher number of comorbidities had worse pre-TKA and post-TKA scores for pain, physical function and 6MWT distance. At 12-month follow-up, mean changes in pain, function and 6MWT distance, and proportion reporting a PASS, were similar for those with and without comorbidities. In multivariable regression analysis, adjusted for potential confounders and clustering by surgeon, no specific comorbidities nor total number of comorbidities were associated with less improvement in pain, physical function or 6MWT distance at 12 months after TKA. Patients with diabetes (OR 0.64, 95% CI 0.44 to 0.94) and a higher number of lower extremity troublesome joints (OR 0.85, 95% CI 0.76 to 0.96) had lower odds of reporting a PASS. CONCLUSION: For individuals with knee OA, comorbid conditions do not limit improvement in pain, physical function or walking ability after TKA, and most conditions do not impact achieving an acceptable symptom state.",
+                        "sentences": [],
+                        "annotations": [
+                            {
+                                "id": "36",
+                                "infons": {
+                                    "identifier": "MESH:D010146",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010146"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010146",
+                                    "biotype": "disease",
+                                    "name": "Pain",
+                                    "accession": "@DISEASE_Pain"
+                                },
+                                "text": "pain",
+                                "locations": [
+                                    {
+                                        "offset": 266,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "37",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "arthroplasty",
+                                "locations": [
+                                    {
+                                        "offset": 321,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "38",
+                                "infons": {
+                                    "identifier": "MESH:D007718",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D007718"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D007718",
+                                    "biotype": "disease",
+                                    "name": "Knee Injuries",
+                                    "accession": "@DISEASE_Knee_Injuries"
+                                },
+                                "text": "TKA",
+                                "locations": [
+                                    {
+                                        "offset": 335,
+                                        "length": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "39",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "knee osteoarthritis",
+                                "locations": [
+                                    {
+                                        "offset": 344,
+                                        "length": 19
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "40",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "OA",
+                                "locations": [
+                                    {
+                                        "offset": 365,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "41",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "knee OA",
+                                "locations": [
+                                    {
+                                        "offset": 590,
+                                        "length": 7
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "42",
+                                "infons": {
+                                    "identifier": "MESH:D007718",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D007718"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D007718",
+                                    "biotype": "disease",
+                                    "name": "Knee Injuries",
+                                    "accession": "@DISEASE_Knee_Injuries"
+                                },
+                                "text": "TKA",
+                                "locations": [
+                                    {
+                                        "offset": 651,
+                                        "length": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "43",
+                                "infons": {
+                                    "identifier": "MESH:D007718",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D007718"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D007718",
+                                    "biotype": "disease",
+                                    "name": "Knee Injuries",
+                                    "accession": "@DISEASE_Knee_Injuries"
+                                },
+                                "text": "TKA",
+                                "locations": [
+                                    {
+                                        "offset": 699,
+                                        "length": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "44",
+                                "infons": {
+                                    "identifier": "MESH:D007718",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D007718"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D007718",
+                                    "biotype": "disease",
+                                    "name": "Knee Injuries",
+                                    "accession": "@DISEASE_Knee_Injuries"
+                                },
+                                "text": "TKA",
+                                "locations": [
+                                    {
+                                        "offset": 753,
+                                        "length": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "45",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "knee OA pain",
+                                "locations": [
+                                    {
+                                        "offset": 767,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "46",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "Osteoarthritis",
+                                "locations": [
+                                    {
+                                        "offset": 823,
+                                        "length": 14
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "47",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "Knee injury and Osteoarthritis",
+                                "locations": [
+                                    {
+                                        "offset": 873,
+                                        "length": 30
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "48",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "Patient",
+                                "locations": [
+                                    {
+                                        "offset": 1032,
+                                        "length": 7
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "49",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "PASS",
+                                "locations": [
+                                    {
+                                        "offset": 1066,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "50",
+                                "infons": {
+                                    "identifier": "MESH:D007718",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D007718"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D007718",
+                                    "biotype": "disease",
+                                    "name": "Knee Injuries",
+                                    "accession": "@DISEASE_Knee_Injuries"
+                                },
+                                "text": "TKA",
+                                "locations": [
+                                    {
+                                        "offset": 1092,
+                                        "length": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "51",
+                                "infons": {
+                                    "identifier": "MESH:D007718",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D007718"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D007718",
+                                    "biotype": "disease",
+                                    "name": "Knee Injuries",
+                                    "accession": "@DISEASE_Knee_Injuries"
+                                },
+                                "text": "TKA",
+                                "locations": [
+                                    {
+                                        "offset": 1273,
+                                        "length": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "52",
+                                "infons": {
+                                    "identifier": "MESH:D007718",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D007718"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D007718",
+                                    "biotype": "disease",
+                                    "name": "Knee Injuries",
+                                    "accession": "@DISEASE_Knee_Injuries"
+                                },
+                                "text": "TKA",
+                                "locations": [
+                                    {
+                                        "offset": 1286,
+                                        "length": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "53",
+                                "infons": {
+                                    "identifier": "MESH:D010146",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010146"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010146",
+                                    "biotype": "disease",
+                                    "name": "Pain",
+                                    "accession": "@DISEASE_Pain"
+                                },
+                                "text": "pain",
+                                "locations": [
+                                    {
+                                        "offset": 1301,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "54",
+                                "infons": {
+                                    "identifier": "MESH:D010146",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010146"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010146",
+                                    "biotype": "disease",
+                                    "name": "Pain",
+                                    "accession": "@DISEASE_Pain"
+                                },
+                                "text": "pain",
+                                "locations": [
+                                    {
+                                        "offset": 1383,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "55",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "PASS",
+                                "locations": [
+                                    {
+                                        "offset": 1444,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "56",
+                                "infons": {
+                                    "identifier": "MESH:D010146",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010146"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010146",
+                                    "biotype": "disease",
+                                    "name": "Pain",
+                                    "accession": "@DISEASE_Pain"
+                                },
+                                "text": "pain",
+                                "locations": [
+                                    {
+                                        "offset": 1706,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "57",
+                                "infons": {
+                                    "identifier": "MESH:D007718",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D007718"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D007718",
+                                    "biotype": "disease",
+                                    "name": "Knee Injuries",
+                                    "accession": "@DISEASE_Knee_Injuries"
+                                },
+                                "text": "TKA",
+                                "locations": [
+                                    {
+                                        "offset": 1766,
+                                        "length": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "58",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "Patients",
+                                "locations": [
+                                    {
+                                        "offset": 1771,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "59",
+                                "infons": {
+                                    "identifier": "MESH:D003920",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D003920"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D003920",
+                                    "biotype": "disease",
+                                    "name": "Diabetes Mellitus",
+                                    "accession": "@DISEASE_Diabetes_Mellitus"
+                                },
+                                "text": "diabetes",
+                                "locations": [
+                                    {
+                                        "offset": 1785,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "60",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "PASS",
+                                "locations": [
+                                    {
+                                        "offset": 1944,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "61",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "knee OA",
+                                "locations": [
+                                    {
+                                        "offset": 1983,
+                                        "length": 7
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "62",
+                                "infons": {
+                                    "identifier": "MESH:D010146",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010146"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010146",
+                                    "biotype": "disease",
+                                    "name": "Pain",
+                                    "accession": "@DISEASE_Pain"
+                                },
+                                "text": "pain",
+                                "locations": [
+                                    {
+                                        "offset": 2040,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "63",
+                                "infons": {
+                                    "identifier": "MESH:D007718",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D007718"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D007718",
+                                    "biotype": "disease",
+                                    "name": "Knee Injuries",
+                                    "accession": "@DISEASE_Knee_Injuries"
+                                },
+                                "text": "TKA",
+                                "locations": [
+                                    {
+                                        "offset": 2089,
+                                        "length": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "relations": []
+                    }
+                ],
+                "relations": [],
+                "pmid": 34145017,
+                "pmcid": null,
+                "meta": {},
+                "date": "2021-06-18T00:00:00Z",
+                "journal": "BMJ Open",
+                "authors": [
+                    "King LK",
+                    "Waugh EJ",
+                    "Jones CA",
+                    "Bohm E",
+                    "Dunbar M",
+                    "Woodhouse L",
+                    "Noseworthy T",
+                    "Marshall DA",
+                    "Hawker GA",
+                    "BEST-Knee Study Team"
+                ],
+                "relations_display": []
+            },
+            {
+                "_id": "37386913|None",
+                "id": "37386913",
+                "infons": {},
+                "passages": [
+                    {
+                        "infons": {
+                            "journal": "J Am Geriatr Soc;2023Jun30. doi:10.1111/jgs.18483",
+                            "year": "2023",
+                            "type": "title",
+                            "authors": "Walston J, Varadhan R, Xue QL, Buta B, Sieber F, Oni J, Imus P, Crews DC, Artz A, Schrack J, Kalyani RR, Abadir P, Carlson M, Hladek M, McAdams-DeMarco M, Jones R, Johnson A, Shafi T, Newman AB, Bandeen-Roche K, "
+                        },
+                        "offset": 0,
+                        "text": "A Study of Physical Resilience and Aging (SPRING): Conceptual framework, rationale, and study design.",
+                        "sentences": [],
+                        "annotations": [
+                            {
+                                "id": "2",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "Resilience",
+                                "locations": [
+                                    {
+                                        "offset": 20,
+                                        "length": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "3",
+                                "infons": {
+                                    "identifier": "MESH:D019588",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D019588"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D019588",
+                                    "biotype": "disease",
+                                    "name": "Aging Premature",
+                                    "accession": "@DISEASE_Aging_Premature"
+                                },
+                                "text": "Aging",
+                                "locations": [
+                                    {
+                                        "offset": 35,
+                                        "length": 5
+                                    }
+                                ]
+                            }
+                        ],
+                        "relations": []
+                    },
+                    {
+                        "infons": {
+                            "type": "abstract"
+                        },
+                        "offset": 102,
+                        "text": "Understanding the physiological basis of physical resilience to clinical stressors is crucial for the well-being of older adults. This article presents a novel framework to discover the biological underpinnings of physical resilience in older adults as part of the \"Characterizing Resiliencies to Physical Stressors in Older Adults: A Dynamical Physiological Systems Approach\" study, also known as The Study of Physical Resilience and Aging (SPRING). Physical resilience, defined as the capacity of a person to withstand clinical stressors and quickly recover or improve upon a baseline functional level, is examined in adults aged 55 years and older by studying the dynamics of stress response systems. The hypothesis is that well-regulated stress response systems promote physical resilience. The study employs dynamic stimulation tests to assess energy metabolism, the hypothalamic-pituitary-adrenal axis, the autonomic nervous system, and the innate immune system. Baseline characteristics influencing resilience outcomes are identified through deep phenotyping of physical and cognitive function, as well as of biological, environmental, and psychosocial characteristics. SPRING aims to study participants undergoing knee replacement surgery (n = 100), bone and marrow transplantation (n = 100), or anticipating dialysis initiation (n = 60). Phenotypic and functional measures are collected pre-stressor and at multiple times after stressor for up to 12 months to examine resilience trajectories. By improving our understanding of physical resilience in older adults, SPRING has the potential to enhance resilient outcomes to major clinical stressors. The article provides an overview of the study's background, rationale, design, pilot phase, implementation, and implications for improving the health and well-being of older adults.",
+                        "sentences": [],
+                        "annotations": [
+                            {
+                                "id": "13",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "resilience",
+                                "locations": [
+                                    {
+                                        "offset": 152,
+                                        "length": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "14",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "resilience",
+                                "locations": [
+                                    {
+                                        "offset": 325,
+                                        "length": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "15",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "Resilience",
+                                "locations": [
+                                    {
+                                        "offset": 522,
+                                        "length": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16",
+                                "infons": {
+                                    "identifier": "MESH:D019588",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D019588"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D019588",
+                                    "biotype": "disease",
+                                    "name": "Aging Premature",
+                                    "accession": "@DISEASE_Aging_Premature"
+                                },
+                                "text": "Aging",
+                                "locations": [
+                                    {
+                                        "offset": 537,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "17",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "resilience",
+                                "locations": [
+                                    {
+                                        "offset": 562,
+                                        "length": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "18",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "resilience",
+                                "locations": [
+                                    {
+                                        "offset": 885,
+                                        "length": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "19",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "resilience",
+                                "locations": [
+                                    {
+                                        "offset": 1108,
+                                        "length": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "20",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "resilience",
+                                "locations": [
+                                    {
+                                        "offset": 1579,
+                                        "length": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "21",
+                                "infons": {
+                                    "type": "Disease",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "disease"
+                                },
+                                "text": "resilience",
+                                "locations": [
+                                    {
+                                        "offset": 1647,
+                                        "length": 10
+                                    }
+                                ]
+                            }
+                        ],
+                        "relations": []
+                    }
+                ],
+                "relations": [],
+                "pmid": 37386913,
+                "pmcid": null,
+                "meta": {},
+                "date": "2023-06-30T00:00:00Z",
+                "journal": "J Am Geriatr Soc",
+                "authors": [
+                    "Walston J",
+                    "Varadhan R",
+                    "Xue QL",
+                    "Buta B",
+                    "Sieber F",
+                    "Oni J",
+                    "Imus P",
+                    "Crews DC",
+                    "Artz A",
+                    "Schrack J",
+                    "Kalyani RR",
+                    "Abadir P",
+                    "Carlson M",
+                    "Hladek M",
+                    "McAdams-DeMarco M",
+                    "Jones R",
+                    "Johnson A",
+                    "Shafi T",
+                    "Newman AB",
+                    "Bandeen-Roche K"
+                ],
+                "relations_display": []
+            },
+            {
+                "_id": "39398595|None",
+                "id": "39398595",
+                "infons": {},
+                "passages": [
+                    {
+                        "infons": {
+                            "journal": "Am J Transl Res;2024; 16 (9) 4479. doi:10.62347/ZMMD4239",
+                            "year": "2024",
+                            "article-id_pmc": "PMC11470368",
+                            "type": "title",
+                            "authors": "Zhang B, Meng H, Zhang H, Zang R, Zhu X, "
+                        },
+                        "offset": 0,
+                        "text": "Influencing factors of chronic pain after total knee replacement in osteoarthritis patients: a nomogram prediction model.",
+                        "sentences": [],
+                        "annotations": [
+                            {
+                                "id": "3",
+                                "infons": {
+                                    "identifier": "MESH:D059350",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D059350"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D059350",
+                                    "biotype": "disease",
+                                    "name": "Chronic Pain",
+                                    "accession": "@DISEASE_Chronic_Pain"
+                                },
+                                "text": "chronic pain",
+                                "locations": [
+                                    {
+                                        "offset": 23,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "4",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "osteoarthritis",
+                                "locations": [
+                                    {
+                                        "offset": 68,
+                                        "length": 14
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 83,
+                                        "length": 8
+                                    }
+                                ]
+                            }
+                        ],
+                        "relations": []
+                    },
+                    {
+                        "infons": {
+                            "type": "abstract"
+                        },
+                        "offset": 122,
+                        "text": "OBJECTIVES: To analyze the factors influencing chronic pain in patients with knee osteoarthritis after total knee replacement surgery (TKRS) and to construct a nomogram risk prediction model, providing an economically effective screening method for clinical use. METHODS: This retrospective study included 100 consecutive patients at the Jinan Central Hospital, with knee osteoarthritis who underwent TKRS from January 2023 to December 2023. Patients were divided into the observation group (n=55) and the control group (n=45) based on the presence of chronic pain. Logistic regression was performed to explore factors associated with chronic pain, including medical records, laboratory data, previous history, and independent clinical risk factors. The identified independent factors were then incorporated to construct a nomogram for chronic pain prediction. RESULTS: Six variables were identified as independent predictors of chronic pain after TKRS: age, BMI, diabetes, severity of preoperative pain, severity of postoperative acute pain, and postoperative wound infection (P<0.05). The area under the curve (AUC) of this nomogram was 0.836 [95% confidence interval (CI): 0.615-0.884], demonstrating good calibration and clinical practicability. CONCLUSION: Age, BMI, diabetes, severity of preoperative pain, severity of postoperative acute pain, and postoperative wound infection are risk factors for chronic pain after TKRS. The predictive nomogram developed in this study shows good prediction ability and accuracy for chronic pain in patients with knee osteoarthritis after surgery.",
+                        "sentences": [],
+                        "annotations": [
+                            {
+                                "id": "28",
+                                "infons": {
+                                    "identifier": "MESH:D059350",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D059350"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D059350",
+                                    "biotype": "disease",
+                                    "name": "Chronic Pain",
+                                    "accession": "@DISEASE_Chronic_Pain"
+                                },
+                                "text": "chronic pain",
+                                "locations": [
+                                    {
+                                        "offset": 169,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "29",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 185,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "30",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "knee osteoarthritis",
+                                "locations": [
+                                    {
+                                        "offset": 199,
+                                        "length": 19
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "31",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 444,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "32",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "knee osteoarthritis",
+                                "locations": [
+                                    {
+                                        "offset": 489,
+                                        "length": 19
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "33",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "Patients",
+                                "locations": [
+                                    {
+                                        "offset": 564,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "34",
+                                "infons": {
+                                    "identifier": "MESH:D059350",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D059350"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D059350",
+                                    "biotype": "disease",
+                                    "name": "Chronic Pain",
+                                    "accession": "@DISEASE_Chronic_Pain"
+                                },
+                                "text": "chronic pain",
+                                "locations": [
+                                    {
+                                        "offset": 674,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "35",
+                                "infons": {
+                                    "identifier": "MESH:D059350",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D059350"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D059350",
+                                    "biotype": "disease",
+                                    "name": "Chronic Pain",
+                                    "accession": "@DISEASE_Chronic_Pain"
+                                },
+                                "text": "chronic pain",
+                                "locations": [
+                                    {
+                                        "offset": 757,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "36",
+                                "infons": {
+                                    "identifier": "MESH:D059350",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D059350"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D059350",
+                                    "biotype": "disease",
+                                    "name": "Chronic Pain",
+                                    "accession": "@DISEASE_Chronic_Pain"
+                                },
+                                "text": "chronic pain",
+                                "locations": [
+                                    {
+                                        "offset": 958,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "37",
+                                "infons": {
+                                    "identifier": "MESH:D059350",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D059350"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D059350",
+                                    "biotype": "disease",
+                                    "name": "Chronic Pain",
+                                    "accession": "@DISEASE_Chronic_Pain"
+                                },
+                                "text": "chronic pain",
+                                "locations": [
+                                    {
+                                        "offset": 1051,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "38",
+                                "infons": {
+                                    "identifier": "MESH:D003920",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D003920"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D003920",
+                                    "biotype": "disease",
+                                    "name": "Diabetes Mellitus",
+                                    "accession": "@DISEASE_Diabetes_Mellitus"
+                                },
+                                "text": "diabetes",
+                                "locations": [
+                                    {
+                                        "offset": 1086,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "39",
+                                "infons": {
+                                    "identifier": "MESH:D010146",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010146"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010146",
+                                    "biotype": "disease",
+                                    "name": "Pain",
+                                    "accession": "@DISEASE_Pain"
+                                },
+                                "text": "pain",
+                                "locations": [
+                                    {
+                                        "offset": 1121,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "40",
+                                "infons": {
+                                    "identifier": "MESH:D010149",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010149"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010149",
+                                    "biotype": "disease",
+                                    "name": "Pain Postoperative",
+                                    "accession": "@DISEASE_Pain_Postoperative"
+                                },
+                                "text": "postoperative acute pain",
+                                "locations": [
+                                    {
+                                        "offset": 1139,
+                                        "length": 24
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "41",
+                                "infons": {
+                                    "identifier": "MESH:D013530",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D013530"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D013530",
+                                    "biotype": "disease",
+                                    "name": "Surgical Wound Infection",
+                                    "accession": "@DISEASE_Surgical_Wound_Infection"
+                                },
+                                "text": "postoperative wound infection",
+                                "locations": [
+                                    {
+                                        "offset": 1169,
+                                        "length": 29
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "42",
+                                "infons": {
+                                    "identifier": "MESH:D003920",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D003920"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D003920",
+                                    "biotype": "disease",
+                                    "name": "Diabetes Mellitus",
+                                    "accession": "@DISEASE_Diabetes_Mellitus"
+                                },
+                                "text": "diabetes",
+                                "locations": [
+                                    {
+                                        "offset": 1394,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "43",
+                                "infons": {
+                                    "identifier": "MESH:D010146",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010146"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010146",
+                                    "biotype": "disease",
+                                    "name": "Pain",
+                                    "accession": "@DISEASE_Pain"
+                                },
+                                "text": "pain",
+                                "locations": [
+                                    {
+                                        "offset": 1429,
+                                        "length": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "44",
+                                "infons": {
+                                    "identifier": "MESH:D010149",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010149"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010149",
+                                    "biotype": "disease",
+                                    "name": "Pain Postoperative",
+                                    "accession": "@DISEASE_Pain_Postoperative"
+                                },
+                                "text": "postoperative acute pain",
+                                "locations": [
+                                    {
+                                        "offset": 1447,
+                                        "length": 24
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "45",
+                                "infons": {
+                                    "identifier": "MESH:D013530",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D013530"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D013530",
+                                    "biotype": "disease",
+                                    "name": "Surgical Wound Infection",
+                                    "accession": "@DISEASE_Surgical_Wound_Infection"
+                                },
+                                "text": "postoperative wound infection",
+                                "locations": [
+                                    {
+                                        "offset": 1477,
+                                        "length": 29
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "46",
+                                "infons": {
+                                    "identifier": "MESH:D059350",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D059350"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D059350",
+                                    "biotype": "disease",
+                                    "name": "Chronic Pain",
+                                    "accession": "@DISEASE_Chronic_Pain"
+                                },
+                                "text": "chronic pain",
+                                "locations": [
+                                    {
+                                        "offset": 1528,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "47",
+                                "infons": {
+                                    "identifier": "MESH:D059350",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D059350"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D059350",
+                                    "biotype": "disease",
+                                    "name": "Chronic Pain",
+                                    "accession": "@DISEASE_Chronic_Pain"
+                                },
+                                "text": "chronic pain",
+                                "locations": [
+                                    {
+                                        "offset": 1648,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "48",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 1664,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "49",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "knee osteoarthritis",
+                                "locations": [
+                                    {
+                                        "offset": 1678,
+                                        "length": 19
+                                    }
+                                ]
+                            }
+                        ],
+                        "relations": []
+                    }
+                ],
+                "relations": [],
+                "pmid": 39398595,
+                "pmcid": null,
+                "meta": {},
+                "date": "2024-09-15T00:00:00Z",
+                "journal": "Am J Transl Res",
+                "authors": [
+                    "Zhang B",
+                    "Meng H",
+                    "Zhang H",
+                    "Zang R",
+                    "Zhu X"
+                ],
+                "relations_display": []
+            },
+            {
+                "_id": "39811151|None",
+                "id": "39811151",
+                "infons": {},
+                "passages": [
+                    {
+                        "infons": {
+                            "journal": "Orthop J Sports Med;2025Jan; 13 (1) 23259671241297157. doi:10.1177/23259671241297157",
+                            "year": "2025",
+                            "article-id_pmc": "PMC11729447",
+                            "type": "title",
+                            "authors": "Porto JR, Lavu MS, Hecht CJ, Kaelber DC, Sculco PK, Heckmann ND, Kamath AF, "
+                        },
+                        "offset": 0,
+                        "text": "The Impact of Contemporary Glucagon-like Peptide-1 Receptor Agonists on the Onset, Severity, and Conversion to Arthroplasty in Hip and Knee Osteoarthritis.",
+                        "sentences": [],
+                        "annotations": [
+                            {
+                                "id": "3",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "Glucagon-like Peptide-1 Receptor",
+                                "locations": [
+                                    {
+                                        "offset": 27,
+                                        "length": 32
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "4",
+                                "infons": {
+                                    "identifier": "-",
+                                    "type": "Chemical",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "chemical"
+                                },
+                                "text": "Agonists",
+                                "locations": [
+                                    {
+                                        "offset": 60,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "Hip and Knee Osteoarthritis",
+                                "locations": [
+                                    {
+                                        "offset": 127,
+                                        "length": 27
+                                    }
+                                ]
+                            }
+                        ],
+                        "relations": []
+                    },
+                    {
+                        "infons": {
+                            "type": "abstract"
+                        },
+                        "offset": 156,
+                        "text": "Background: The growing popularity of glucagon-like peptide-1 receptor agonists (GLP-1-RAs) for weight loss could significantly impact joint preservation and arthroplasty. While this will in part be driven by the association between obesity, osteoarthritis (OA), and total joint arthroplasty (TJA), recent evidence also indicates that GLP-1-RAs may have direct joint-protective, anti-inflammatory effects. Purpose: To evaluate the association between GLP-1-RA use and the onset and progression of hip and knee OA in an obese population. Study Design: Cohort study; Level of evidence, 3. Methods: A national health network was queried for patients with an index visit between June 1, 2021, and January 1, 2023, and a body mass index (BMI) >=30. Patients were stratified into groups without (n = 1,092,225) and with(n = 237,043) preexisting hip and/or knee OA. One-to-one propensity score matching was used to balance GLP-1-RA use based on age, sex, race, BMI, and comorbid type 2 diabetes mellitus. Primary outcomes were incidence of hip OA, knee OA, major joint injections, total hip arthroplasty (THA), and total knee arthroplasty (TKA) within 1 year. Cox proportional hazards models were used to estimate hazard ratios (HRs) between cohorts prescribed and not prescribed GLP-1-RAs. Results: In patients with preexisting OA, GLP-1-RA use correlated with reduced odds of conversion to THA (1.1% vs 2.2%; HR, 0.6; 95% CI, 0.5 to 0.8) and TKA (1.4% vs 2.1%; HR, 0.8; 95% CI, 0.6 to 0.9) within 1 year. In patients without preexisting OA, GLP-1-RA use was associated with an increased incidence of hip OA (0.9% vs 0.7%; HR, 1.4; 95% CI, 1.2 to 1.6), knee OA (2.1% vs 1.9%; HR, 1.3; 95% CI, 1.2 to 3.1), major joint injections (2.2% vs 1.8%; HR, 1.4; 95% CI, 1.3 to 1.5), and TKA (0.09% vs 0.04%; HR, 2.6; 95% CI, 1.6 to 4.3). Comparing cohorts without prior OA, patients who were prescribed a GLP-1-RA demonstrated slightly greater decreases in BMI (-1.00; 95% CI, -1.06 to -0.96) at 1-year after the index visit compared with patients not prescribed a GLP-1-RA (-0.90; 95% CI, -0.94 to -0.84). However, in patients with a prior diagnosis of hip or knee OA, there was no difference noted in BMI change. Conclusion: GLP-1-RAs may provide direct disease-modifying behaviors in patients with preexisting OA diagnosis, per a reduced risk of conversion to TJA not attributable to weight loss. Further investigation is also needed to elucidate the association between GLP-1-RA use and the increased incidence of OA diagnosis and conversion to TKA in patients with no preexisting OA diagnosis.",
+                        "sentences": [],
+                        "annotations": [
+                            {
+                                "id": "59",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "glucagon-like peptide-1 receptor",
+                                "locations": [
+                                    {
+                                        "offset": 194,
+                                        "length": 32
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "60",
+                                "infons": {
+                                    "identifier": "-",
+                                    "type": "Chemical",
+                                    "valid": false,
+                                    "normalized_id": null,
+                                    "biotype": "chemical"
+                                },
+                                "text": "agonists",
+                                "locations": [
+                                    {
+                                        "offset": 227,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "61",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 237,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "62",
+                                "infons": {
+                                    "identifier": "MESH:D015431",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D015431"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D015431",
+                                    "biotype": "disease",
+                                    "name": "Weight Loss",
+                                    "accession": "@DISEASE_Weight_Loss"
+                                },
+                                "text": "weight loss",
+                                "locations": [
+                                    {
+                                        "offset": 252,
+                                        "length": 11
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "63",
+                                "infons": {
+                                    "identifier": "MESH:D009765",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D009765"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D009765",
+                                    "biotype": "disease",
+                                    "name": "Obesity",
+                                    "accession": "@DISEASE_Obesity"
+                                },
+                                "text": "obesity",
+                                "locations": [
+                                    {
+                                        "offset": 389,
+                                        "length": 7
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "64",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "osteoarthritis",
+                                "locations": [
+                                    {
+                                        "offset": 398,
+                                        "length": 14
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "65",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "OA",
+                                "locations": [
+                                    {
+                                        "offset": 414,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "66",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 491,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "67",
+                                "infons": {
+                                    "identifier": "MESH:D007249",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D007249"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D007249",
+                                    "biotype": "disease",
+                                    "name": "Inflammation",
+                                    "accession": "@DISEASE_Inflammation"
+                                },
+                                "text": "inflammatory",
+                                "locations": [
+                                    {
+                                        "offset": 540,
+                                        "length": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "68",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 607,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "69",
+                                "infons": {
+                                    "identifier": "MESH:D011883",
+                                    "type": "Chemical",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D011883"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D011883",
+                                    "biotype": "chemical",
+                                    "name": "Radium",
+                                    "accession": "@CHEMICAL_Radium"
+                                },
+                                "text": "RA",
+                                "locations": [
+                                    {
+                                        "offset": 613,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "70",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "hip and knee OA",
+                                "locations": [
+                                    {
+                                        "offset": 653,
+                                        "length": 15
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "71",
+                                "infons": {
+                                    "identifier": "MESH:D009765",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D009765"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D009765",
+                                    "biotype": "disease",
+                                    "name": "Obesity",
+                                    "accession": "@DISEASE_Obesity"
+                                },
+                                "text": "obese",
+                                "locations": [
+                                    {
+                                        "offset": 675,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "72",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 794,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "73",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "Patients",
+                                "locations": [
+                                    {
+                                        "offset": 900,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "74",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "hip and/or knee OA",
+                                "locations": [
+                                    {
+                                        "offset": 995,
+                                        "length": 18
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "75",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 1072,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "76",
+                                "infons": {
+                                    "identifier": "MESH:D011883",
+                                    "type": "Chemical",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D011883"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D011883",
+                                    "biotype": "chemical",
+                                    "name": "Radium",
+                                    "accession": "@CHEMICAL_Radium"
+                                },
+                                "text": "RA",
+                                "locations": [
+                                    {
+                                        "offset": 1078,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "77",
+                                "infons": {
+                                    "identifier": "MESH:D003924",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D003924"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D003924",
+                                    "biotype": "disease",
+                                    "name": "Diabetes Mellitus Type 2",
+                                    "accession": "@DISEASE_Diabetes_Mellitus_Type_2"
+                                },
+                                "text": "type 2 diabetes mellitus",
+                                "locations": [
+                                    {
+                                        "offset": 1128,
+                                        "length": 24
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "78",
+                                "infons": {
+                                    "identifier": "MESH:D015207",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D015207"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D015207",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Hip",
+                                    "accession": "@DISEASE_Osteoarthritis_Hip"
+                                },
+                                "text": "hip OA",
+                                "locations": [
+                                    {
+                                        "offset": 1189,
+                                        "length": 6
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "79",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "knee OA",
+                                "locations": [
+                                    {
+                                        "offset": 1197,
+                                        "length": 7
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "80",
+                                "infons": {
+                                    "identifier": "MESH:D025981",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D025981"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D025981",
+                                    "biotype": "disease",
+                                    "name": "Hip Injuries",
+                                    "accession": "@DISEASE_Hip_Injuries"
+                                },
+                                "text": "hip arthroplasty",
+                                "locations": [
+                                    {
+                                        "offset": 1236,
+                                        "length": 16
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "81",
+                                "infons": {
+                                    "identifier": "MESH:D025981",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D025981"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D025981",
+                                    "biotype": "disease",
+                                    "name": "Hip Injuries",
+                                    "accession": "@DISEASE_Hip_Injuries"
+                                },
+                                "text": "THA",
+                                "locations": [
+                                    {
+                                        "offset": 1254,
+                                        "length": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "82",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 1429,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "83",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 1452,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "84",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "OA",
+                                "locations": [
+                                    {
+                                        "offset": 1478,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "85",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 1482,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "86",
+                                "infons": {
+                                    "identifier": "MESH:D011883",
+                                    "type": "Chemical",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D011883"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D011883",
+                                    "biotype": "chemical",
+                                    "name": "Radium",
+                                    "accession": "@CHEMICAL_Radium"
+                                },
+                                "text": "RA",
+                                "locations": [
+                                    {
+                                        "offset": 1488,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "87",
+                                "infons": {
+                                    "identifier": "MESH:D025981",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D025981"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D025981",
+                                    "biotype": "disease",
+                                    "name": "Hip Injuries",
+                                    "accession": "@DISEASE_Hip_Injuries"
+                                },
+                                "text": "THA",
+                                "locations": [
+                                    {
+                                        "offset": 1541,
+                                        "length": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "88",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 1659,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "89",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "OA",
+                                "locations": [
+                                    {
+                                        "offset": 1688,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "90",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 1692,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "91",
+                                "infons": {
+                                    "identifier": "MESH:D011883",
+                                    "type": "Chemical",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D011883"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D011883",
+                                    "biotype": "chemical",
+                                    "name": "Radium",
+                                    "accession": "@CHEMICAL_Radium"
+                                },
+                                "text": "RA",
+                                "locations": [
+                                    {
+                                        "offset": 1698,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "92",
+                                "infons": {
+                                    "identifier": "MESH:D015207",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D015207"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D015207",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Hip",
+                                    "accession": "@DISEASE_Osteoarthritis_Hip"
+                                },
+                                "text": "hip OA",
+                                "locations": [
+                                    {
+                                        "offset": 1751,
+                                        "length": 6
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "93",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "knee OA",
+                                "locations": [
+                                    {
+                                        "offset": 1803,
+                                        "length": 7
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "94",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "OA",
+                                "locations": [
+                                    {
+                                        "offset": 2011,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "95",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 2015,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "96",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 2046,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "97",
+                                "infons": {
+                                    "identifier": "MESH:D001172",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D001172"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D001172",
+                                    "biotype": "disease",
+                                    "name": "Arthritis Rheumatoid",
+                                    "accession": "@DISEASE_Arthritis_Rheumatoid"
+                                },
+                                "text": "RA",
+                                "locations": [
+                                    {
+                                        "offset": 2052,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "98",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 2180,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "99",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 2206,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "100",
+                                "infons": {
+                                    "identifier": "MESH:D001172",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D001172"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D001172",
+                                    "biotype": "disease",
+                                    "name": "Arthritis Rheumatoid",
+                                    "accession": "@DISEASE_Arthritis_Rheumatoid"
+                                },
+                                "text": "RA",
+                                "locations": [
+                                    {
+                                        "offset": 2212,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "101",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 2260,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "102",
+                                "infons": {
+                                    "identifier": "MESH:D020370",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D020370"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D020370",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis Knee",
+                                    "accession": "@DISEASE_Osteoarthritis_Knee"
+                                },
+                                "text": "hip or knee OA",
+                                "locations": [
+                                    {
+                                        "offset": 2295,
+                                        "length": 14
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "103",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 2368,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "104",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 2428,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "105",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "OA",
+                                "locations": [
+                                    {
+                                        "offset": 2454,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "106",
+                                "infons": {
+                                    "identifier": "MESH:D015431",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D015431"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D015431",
+                                    "biotype": "disease",
+                                    "name": "Weight Loss",
+                                    "accession": "@DISEASE_Weight_Loss"
+                                },
+                                "text": "weight loss",
+                                "locations": [
+                                    {
+                                        "offset": 2528,
+                                        "length": 11
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "107",
+                                "infons": {
+                                    "identifier": "2740",
+                                    "type": "Gene",
+                                    "ncbi_homologene": "1558",
+                                    "valid": true,
+                                    "normalized": [
+                                        2740
+                                    ],
+                                    "database": "ncbi_gene",
+                                    "normalized_id": 2740,
+                                    "biotype": "gene",
+                                    "name": "GLP1R",
+                                    "accession": "@GENE_GLP1R"
+                                },
+                                "text": "GLP-1",
+                                "locations": [
+                                    {
+                                        "offset": 2615,
+                                        "length": 5
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "108",
+                                "infons": {
+                                    "identifier": "MESH:D001172",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D001172"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D001172",
+                                    "biotype": "disease",
+                                    "name": "Arthritis Rheumatoid",
+                                    "accession": "@DISEASE_Arthritis_Rheumatoid"
+                                },
+                                "text": "RA",
+                                "locations": [
+                                    {
+                                        "offset": 2621,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "109",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "OA",
+                                "locations": [
+                                    {
+                                        "offset": 2659,
+                                        "length": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "110",
+                                "infons": {
+                                    "identifier": "9606",
+                                    "type": "Species",
+                                    "valid": true,
+                                    "normalized": [
+                                        9606
+                                    ],
+                                    "database": "ncbi_taxonomy",
+                                    "normalized_id": 9606,
+                                    "biotype": "species",
+                                    "name": "9606",
+                                    "accession": null
+                                },
+                                "text": "patients",
+                                "locations": [
+                                    {
+                                        "offset": 2697,
+                                        "length": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "111",
+                                "infons": {
+                                    "identifier": "MESH:D010003",
+                                    "type": "Disease",
+                                    "valid": true,
+                                    "normalized": [
+                                        "D010003"
+                                    ],
+                                    "database": "ncbi_mesh",
+                                    "normalized_id": "D010003",
+                                    "biotype": "disease",
+                                    "name": "Osteoarthritis",
+                                    "accession": "@DISEASE_Osteoarthritis"
+                                },
+                                "text": "OA",
+                                "locations": [
+                                    {
+                                        "offset": 2726,
+                                        "length": 2
+                                    }
+                                ]
+                            }
+                        ],
+                        "relations": []
+                    }
+                ],
+                "relations": [
+                    {
+                        "id": "R1",
+                        "infons": {
+                            "score": "0.966",
+                            "role1": {
+                                "identifier": "MESH:D025981",
+                                "type": "Disease",
+                                "valid": true,
+                                "normalized": [
+                                    "D025981"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D025981",
+                                "biotype": "disease",
+                                "name": "Hip Injuries",
+                                "accession": "@DISEASE_Hip_Injuries"
+                            },
+                            "role2": {
+                                "identifier": "2740",
+                                "type": "Gene",
+                                "valid": true,
+                                "normalized": [
+                                    2740
+                                ],
+                                "database": "ncbi_gene",
+                                "normalized_id": 2740,
+                                "biotype": "gene",
+                                "name": "GLP1R",
+                                "accession": "@GENE_GLP1R"
+                            },
+                            "type": "Negative_Correlation"
+                        },
+                        "nodes": [
+                            {
+                                "refid": "0",
+                                "role": "31,29"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "R2",
+                        "infons": {
+                            "score": "0.8175",
+                            "role1": {
+                                "identifier": "MESH:D011883",
+                                "type": "Chemical",
+                                "valid": true,
+                                "normalized": [
+                                    "D011883"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D011883",
+                                "biotype": "chemical",
+                                "name": "Radium",
+                                "accession": "@CHEMICAL_Radium"
+                            },
+                            "role2": {
+                                "identifier": "MESH:D003924",
+                                "type": "Disease",
+                                "valid": true,
+                                "normalized": [
+                                    "D003924"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D003924",
+                                "biotype": "disease",
+                                "name": "Diabetes Mellitus Type 2",
+                                "accession": "@DISEASE_Diabetes_Mellitus_Type_2"
+                            },
+                            "type": "Negative_Correlation"
+                        },
+                        "nodes": [
+                            {
+                                "refid": "1",
+                                "role": "20,21"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "R3",
+                        "infons": {
+                            "score": "0.4708",
+                            "role1": {
+                                "identifier": "MESH:D015431",
+                                "type": "Disease",
+                                "valid": true,
+                                "normalized": [
+                                    "D015431"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D015431",
+                                "biotype": "disease",
+                                "name": "Weight Loss",
+                                "accession": "@DISEASE_Weight_Loss"
+                            },
+                            "role2": {
+                                "identifier": "2740",
+                                "type": "Gene",
+                                "valid": true,
+                                "normalized": [
+                                    2740
+                                ],
+                                "database": "ncbi_gene",
+                                "normalized_id": 2740,
+                                "biotype": "gene",
+                                "name": "GLP1R",
+                                "accession": "@GENE_GLP1R"
+                            },
+                            "type": "Positive_Correlation"
+                        },
+                        "nodes": [
+                            {
+                                "refid": "2",
+                                "role": "6,3"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "R4",
+                        "infons": {
+                            "score": "0.8751",
+                            "role1": {
+                                "identifier": "MESH:D020370",
+                                "type": "Disease",
+                                "valid": true,
+                                "normalized": [
+                                    "D020370"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D020370",
+                                "biotype": "disease",
+                                "name": "Osteoarthritis Knee",
+                                "accession": "@DISEASE_Osteoarthritis_Knee"
+                            },
+                            "role2": {
+                                "identifier": "2740",
+                                "type": "Gene",
+                                "valid": true,
+                                "normalized": [
+                                    2740
+                                ],
+                                "database": "ncbi_gene",
+                                "normalized_id": 2740,
+                                "biotype": "gene",
+                                "name": "GLP1R",
+                                "accession": "@GENE_GLP1R"
+                            },
+                            "type": "Association"
+                        },
+                        "nodes": [
+                            {
+                                "refid": "3",
+                                "role": "2,0"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "R5",
+                        "infons": {
+                            "score": "0.9991",
+                            "role1": {
+                                "identifier": "MESH:D011883",
+                                "type": "Chemical",
+                                "valid": true,
+                                "normalized": [
+                                    "D011883"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D011883",
+                                "biotype": "chemical",
+                                "name": "Radium",
+                                "accession": "@CHEMICAL_Radium"
+                            },
+                            "role2": {
+                                "identifier": "MESH:D015207",
+                                "type": "Disease",
+                                "valid": true,
+                                "normalized": [
+                                    "D015207"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D015207",
+                                "biotype": "disease",
+                                "name": "Osteoarthritis Hip",
+                                "accession": "@DISEASE_Osteoarthritis_Hip"
+                            },
+                            "type": "Positive_Correlation"
+                        },
+                        "nodes": [
+                            {
+                                "refid": "4",
+                                "role": "35,36"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "R6",
+                        "infons": {
+                            "score": "0.9976",
+                            "role1": {
+                                "identifier": "MESH:D011883",
+                                "type": "Chemical",
+                                "valid": true,
+                                "normalized": [
+                                    "D011883"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D011883",
+                                "biotype": "chemical",
+                                "name": "Radium",
+                                "accession": "@CHEMICAL_Radium"
+                            },
+                            "role2": {
+                                "identifier": "MESH:D020370",
+                                "type": "Disease",
+                                "valid": true,
+                                "normalized": [
+                                    "D020370"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D020370",
+                                "biotype": "disease",
+                                "name": "Osteoarthritis Knee",
+                                "accession": "@DISEASE_Osteoarthritis_Knee"
+                            },
+                            "type": "Negative_Correlation"
+                        },
+                        "nodes": [
+                            {
+                                "refid": "5",
+                                "role": "13,14"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "R7",
+                        "infons": {
+                            "score": "0.9974",
+                            "role1": {
+                                "identifier": "MESH:D011883",
+                                "type": "Chemical",
+                                "valid": true,
+                                "normalized": [
+                                    "D011883"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D011883",
+                                "biotype": "chemical",
+                                "name": "Radium",
+                                "accession": "@CHEMICAL_Radium"
+                            },
+                            "role2": {
+                                "identifier": "MESH:D010003",
+                                "type": "Disease",
+                                "valid": true,
+                                "normalized": [
+                                    "D010003"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D010003",
+                                "biotype": "disease",
+                                "name": "Osteoarthritis",
+                                "accession": "@DISEASE_Osteoarthritis"
+                            },
+                            "type": "Negative_Correlation"
+                        },
+                        "nodes": [
+                            {
+                                "refid": "6",
+                                "role": "30,28"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "R8",
+                        "infons": {
+                            "score": "0.9952",
+                            "role1": {
+                                "identifier": "MESH:D007249",
+                                "type": "Disease",
+                                "valid": true,
+                                "normalized": [
+                                    "D007249"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D007249",
+                                "biotype": "disease",
+                                "name": "Inflammation",
+                                "accession": "@DISEASE_Inflammation"
+                            },
+                            "role2": {
+                                "identifier": "2740",
+                                "type": "Gene",
+                                "valid": true,
+                                "normalized": [
+                                    2740
+                                ],
+                                "database": "ncbi_gene",
+                                "normalized_id": 2740,
+                                "biotype": "gene",
+                                "name": "GLP1R",
+                                "accession": "@GENE_GLP1R"
+                            },
+                            "type": "Negative_Correlation"
+                        },
+                        "nodes": [
+                            {
+                                "refid": "7",
+                                "role": "11,10"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "R9",
+                        "infons": {
+                            "score": "0.9983",
+                            "role1": {
+                                "identifier": "MESH:D011883",
+                                "type": "Chemical",
+                                "valid": true,
+                                "normalized": [
+                                    "D011883"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D011883",
+                                "biotype": "chemical",
+                                "name": "Radium",
+                                "accession": "@CHEMICAL_Radium"
+                            },
+                            "role2": {
+                                "identifier": "MESH:D025981",
+                                "type": "Disease",
+                                "valid": true,
+                                "normalized": [
+                                    "D025981"
+                                ],
+                                "database": "ncbi_mesh",
+                                "normalized_id": "D025981",
+                                "biotype": "disease",
+                                "name": "Hip Injuries",
+                                "accession": "@DISEASE_Hip_Injuries"
+                            },
+                            "type": "Negative_Correlation"
+                        },
+                        "nodes": [
+                            {
+                                "refid": "8",
+                                "role": "30,31"
+                            }
+                        ]
+                    }
+                ],
+                "pmid": 39811151,
+                "pmcid": null,
+                "meta": {},
+                "date": "2025-01-13T00:00:00Z",
+                "journal": "Orthop J Sports Med",
+                "authors": [
+                    "Porto JR",
+                    "Lavu MS",
+                    "Hecht CJ 2nd",
+                    "Kaelber DC",
+                    "Sculco PK",
+                    "Heckmann ND",
+                    "Kamath AF"
+                ],
+                "relations_display": [
+                    {
+                        "name": "inhibit|@DISEASE_Hip_Injuries|@GENE_GLP1R"
+                    },
+                    {
+                        "name": "treat|@CHEMICAL_Radium|@DISEASE_Diabetes_Mellitus_Type_2"
+                    },
+                    {
+                        "name": "stimulate|@DISEASE_Weight_Loss|@GENE_GLP1R"
+                    },
+                    {
+                        "name": "associate|@DISEASE_Osteoarthritis_Knee|@GENE_GLP1R"
+                    },
+                    {
+                        "name": "cause|@CHEMICAL_Radium|@DISEASE_Osteoarthritis_Hip"
+                    },
+                    {
+                        "name": "treat|@CHEMICAL_Radium|@DISEASE_Osteoarthritis_Knee"
+                    },
+                    {
+                        "name": "treat|@CHEMICAL_Radium|@DISEASE_Osteoarthritis"
+                    },
+                    {
+                        "name": "inhibit|@DISEASE_Inflammation|@GENE_GLP1R"
+                    },
+                    {
+                        "name": "treat|@CHEMICAL_Radium|@DISEASE_Hip_Injuries"
+                    }
+                ]
+            }
+        ]
+    }
+]
