@@ -1,5 +1,4 @@
 import asyncio
-from typing import Optional
 from contextlib import AsyncExitStack
 
 from mcp import ClientSession, StdioServerParameters
@@ -17,13 +16,14 @@ class MCPClient:
     def __init__(self):
         # Initialize session and client objects
         GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-        self.session: Optional[ClientSession] = None
+        self.sessions: dict[str, ClientSession] = {}
+        self.transports: dict[str, tuple] = {}
         # the resource manager that sets up the transport infrastructure underneath
         self.exit_stack = AsyncExitStack()
         self.client = genai.Client(api_key=GEMINI_API_KEY)
         self.model_name = "gemini-2.5-flash"
 
-    async def connect_to_server(self, server_path: str):
+    async def connect_to_server(self, server_name: str, server_path: str):
         """
         Connects the client to a MCP server (stdio protocol)
         Args:
@@ -43,21 +43,33 @@ class MCPClient:
             stdio_client(server_params)
         )
         # get both the stdio and write streaming objects.
-        self.stdio, self.write = stdio_transport
+        stdio, write = stdio_transport
+        self.transports[server_name] = (stdio, write)
         # creates client-side MCP session based on the stdio streams provided
-        self.session = await self.exit_stack.enter_async_context(
-            ClientSession(self.stdio, self.write)
+        self.sessions[server_name] = await self.exit_stack.enter_async_context(
+            ClientSession(self.transports[server_name][0], self.transports[server_name][1])
         )
         # initalization handshake (MCP)
-        await self.session.initialize()
-        response = await self.session.list_tools()
+        await self.sessions[server_name].initialize()
+        response = await self.sessions[server_name].list_tools()
         tools = response.tools
-        print("\nConnected to server with tools:", [tool.name for tool in tools])
+        print(f"\nConnected to server '{server_name}' with tools:", [tool.name for tool in tools])
 
     async def execute_tools(self, query: str) -> list[str]:
         """Process a query using Gemini and available tools"""
-        # Get tools from MCP server
-        list_tools_response = await self.session.list_tools()
+        # Aggregate tools from all servers and create a mapping
+        all_tools = []
+        tool_to_session = {}  # Maps tool name to the session that provides it
+        
+        for server_name, session in self.sessions.items():
+            response = await session.list_tools()
+            for tool in response.tools:
+                # Check for tool name conflicts
+                if tool.name in tool_to_session:
+                    print(f"Warning: Tool '{tool.name}' exists in multiple servers. Using first occurrence.")
+                else:
+                    all_tools.append(tool)
+                    tool_to_session[tool.name] = session
         
         # Convert MCP tools to Gemini format
         function_declarations = [
@@ -66,7 +78,7 @@ class MCPClient:
                 description=tool.description,
                 parameters=tool.inputSchema,
             )
-            for tool in list_tools_response.tools
+            for tool in all_tools
         ]
         
         tools = types.Tool(function_declarations=function_declarations)
@@ -89,13 +101,19 @@ class MCPClient:
         if not function_calls:
             return response.text if response.text else "No response generated."
         
-        # Handle function calls
+        # Handle function calls - route to the correct server
         tool_responses = []
         for function_call in function_calls:
             tool_name = function_call.name
             tool_args = dict(function_call.args)
-            result = await self.session.call_tool(tool_name, tool_args)
-            tool_responses.append(result.content)
+            
+            # Look up which session has this tool
+            if tool_name in tool_to_session:
+                session = tool_to_session[tool_name]
+                result = await session.call_tool(tool_name, tool_args)
+                tool_responses.append(result.content)
+            else:
+                print(f"Error: Tool '{tool_name}' not found in any connected server")
         
         return tool_responses
 
@@ -134,6 +152,25 @@ class MCPClient:
             search_results = list(map(lambda x: json.loads(x.text.replace("\n", "")), results[0]))
             return search_results
         return []
+
+    async def export_publications(self, ids: list[str]):
+        """
+        Returns the annotation metadata of the search result to the user.
+        """
+        query = f"""
+            Task: Use the export_publications tool to export the pubtator data for the provided list of PubMed IDs.
+            
+            Parameters:
+            - pmids: {ids}
+            - format: "biocjson"
+            
+            Return the raw JSON data from the tool without any additional formatting or explanation.
+        """
+        classified_result = await self.execute_tools(query)
+        if classified_result:
+            return list(map(lambda x: json.loads(x.text.replace("\n", "")), classified_result[0]))
+        return []
+
     
     async def chat_loop(self):
         """Run an interactive chat loop"""
@@ -161,12 +198,22 @@ class MCPClient:
 
 async def main():
     if len(sys.argv) < 2:
-        print("Usage: python client.py <path_to_server_script>")
+        print("Usage: python client.py <server_name:path_to_server_script> ...")
+        print("Example: python client.py pubmed:./PubMed-MCP-Server/pubmed_server.py pubtator:./PubTator-MCP-Server/PubTator_server.py")
         sys.exit(1)
 
     client = MCPClient()
     try:
-        await client.connect_to_server(sys.argv[1])
+        # Parse server arguments in format "name:path"
+        for arg in sys.argv[1:]:
+            if ':' in arg:
+                server_name, server_path = arg.split(':', 1)
+            else:
+                # If no name provided, use filename as name
+                server_path = arg
+                server_name = os.path.basename(server_path).replace('.py', '').replace('.js', '')
+            
+            await client.connect_to_server(server_name, server_path)
         search_result = await client.pico_search(
             pico_data = {
                 "P": ["diabetes", "chronic right knee pain"],
@@ -177,9 +224,13 @@ async def main():
             keys = ["P", "I", "C"],
             num_results=5
         )
-        print(json.dumps(search_result, indent=4))
-        pmids = list(map(lambda item: item["PMID"], search_result))
-        print(pmids)
+        pmids = list(map(lambda item: item["PMID"] if "PMID" in item.keys() else item["pmid"], search_result))
+        if not pmids:
+            return
+        pubtator_output = await client.export_publications(pmids)
+        if not pubtator_output:
+            return
+
     finally:
         await client.cleanup()
 
